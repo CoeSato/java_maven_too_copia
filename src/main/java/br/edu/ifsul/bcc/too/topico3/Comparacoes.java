@@ -7,9 +7,12 @@ import java.lang.Object;
  *
  * @author telmo
  */
-public class TiposDados {
+public class Comparacoes {
     
-    int v;//global ou variáveis de instância 
+    int v;//global ou variáveis de instância
+    float fv = 1f;
+    boolean flag = false;
+    double dv = 10f;
     
     public static void main(String[] args) {
         
@@ -51,14 +54,14 @@ public class TiposDados {
         }else{
             System.out.println("instancias diferentes. - strAuxiliar == strAuxiliar3 ");
         }
-        */  
+        */
         /*
         if(strTime == strAuxiliar){
             System.out.println("Instâncias iguais - strTime == strAuxiliar ");
         }else{
             System.out.println("instancias diferentes. - strTime == strAuxiliar");
         }
-        */        
+        */      
         /*
         if(strTime == strAuxiliar2){
             System.out.println("Instâncias iguais - strTime == strAuxiliar2");
@@ -66,13 +69,13 @@ public class TiposDados {
             System.out.println("instancias diferentes.  - strTime == strAuxiliar2");
         }        
         */
-        
+        /*
         if(strTime.equals(strAuxiliar)){
             System.out.println("conteúdos iguais - strTime.equals(strAuxiliar)");
         }else{
             System.out.println("conteúdos diferentes - strTime.equals(strAuxiliar)");
         }     
-        
+        */
         
     }
     
