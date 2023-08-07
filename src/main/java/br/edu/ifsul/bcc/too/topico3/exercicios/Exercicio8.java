@@ -10,39 +10,11 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Calendar;
 
-
 public class Exercicio8 {
-    
     
     Exercicio8(){
         
-        //inicializando a lista.
-        List<Compra> lista = new ArrayList();
-    
-        //criando o objeto c do tipo Compra
-        Compra c = new Compra(1, 
-                              Calendar.getInstance(), 
-                              new java.util.Date());
-        
-        lista.add(c);//adicionando o objeto c na lista.
-        
-        
-        //criando o objeto c do tipo Compra
-        Compra c2 = new Compra(null, null, null);
-        
-        lista.add(c2);//adiciona na lista.
-        
-        
-        //criando o objeto c do tipo Compra
-        Compra c3 = new Compra(null, null, null);
-        
-        lista.add(c3);//adiciona na lista.
-        
-        
-        
     }
-    
-    
     
     /*
      8. Codifique um método na classe Exercicio8 para criar e inicializar cinco 

@@ -16,7 +16,7 @@ public class Exercicio3 {
         int[][] rgDados3 = new int[2][2];
 
         /*
-            1) Com base nos métodos da classe JOptionPane obtenha informações do console e inicializar as matrizes rgDados 1 e rgDados2.
+            3) Com base nos métodos da classe JOptionPane obtenha informações do console e inicializar as matrizes rgDados 1 e rgDados2.
                Em seguida finalize a rotina para multiplicar os dados das matrizes (rgDados1 e rgDados2) e armazene em rgDados3. Por fim imprima no console os dados gerados (rgDados3).
 
                Documentação: https://www.devmedia.com.br/introducao-a-interface-gui-no-java/25646
